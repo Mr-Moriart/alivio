@@ -1,0 +1,74 @@
+
+.wrapper{
+    max-width: 1920px;
+}
+.container{
+    max-width: 1413px;
+    margin: 0 auto;
+}
+.header_top{
+    display: flex;
+}
+.logo{
+    margin-right: 172px;
+}
+.nav_list{
+    display: flex;
+    list-style: none;
+    gap: 72px;
+}
+.nav_link{
+    text-decoration: none;
+    color: black;
+}
+.ml{
+    margin-left: 283px;
+}
+.header_bg{
+    height: 895px;
+    background: url(../img/background.png) center / cover no-repeat;
+}
+.bg_block{
+    padding: 175px 0 0 275px;
+}
+.title{
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 74px;
+
+color: #01996D;
+}
+.bg_text{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+
+color: #484848;
+}
+
+@media (max-width: 1000px) {
+    .logo{
+        margin-right: 150px;
+    }
+    .nav_list{
+        gap: 50px;
+    }
+    .ml{
+        margin-left: 200px;
+    }
+}
+@media (max-width: 900px) {
+    .logo{
+        margin-right: 80px;
+    }
+    .nav_list{
+        gap: 50px;
+    }
+    .ml{
+        margin-left: 100px;
+    }
+}
